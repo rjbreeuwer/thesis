@@ -1,0 +1,41 @@
+DISCLAIMER: This data is raw Reddit data, and may contain some profanity and
+            possibly other offensive content. We have automatically filtered
+            the blatant stuff, but due to it having to be a random sample we
+            cannot remove everything. If you are not comfortable with this,
+            please indicate you would rather not annotate.
+            
+Hi, thanks for participating in our evaluation! Below you will find a set of
+reddit posts---some of them have been altered by an algorithm. You may assume all
+sentences were written by speakers of the English language (though of varying
+spelling and grammar mastery... it's Reddit after all). I would like you to answer 2 questions.
+    - Does the sentence look, to you, like it was altered by an algorithm?
+      (Choose: no or yes)
+    - if so, please note -one- word that made you think this (even though
+      there might be multiple).
+      
+
+If you're unsure, try to fill out something regardless. Note that there are
+some special tokens including __ (such as __USER__), these are for
+anonymization (@username) and are supposed to be there.
+Here are some examples for a quick illustration. Given:
+
+(1) trump likes for friendlier european wedding in poland .
+Let's assume we think `wedding` looks like it might be changed. We type 'yes' for
+changed and type the word: 'wedding'.
+
+Another example:
+
+(2) a skinned knee is a approve of a childhood well - lived .
+`Approve` and `skinned` look out of place and make the sentence quite broken,
+but we only note -one word-.
+
+Final example:
+
+these decisions will hurt 😭 , but success will soon come 🙌 🏽
+(3) Finally! A sentence that looks in order. We note: 'no'
+There are 80 sentences to rate; try not to take longer than 10-20 seconds per
+sentence (for your own sake). Annotating should take about 20-30 min. Please
+rate one sentence at a time.
+
+So: algorithmically changed yes, or no, and if you think the sentence
+was changed, note -one word- that's suspicious.
